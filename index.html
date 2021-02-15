@@ -298,43 +298,43 @@
   </div>
   <div class="column">
     <div class = "image_card">
-    <img src="./resources/image2.jpg">
+    <img src="./resources/image2.jpg" loading="lazy">
       <p> Slide 2</p>
     </div>
   </div>
   <div class="column">
     <div class = "image_card">
-    <img src="./resources/image3.jpg">
+    <img src="./resources/image3.jpg" loading="lazy">
       <p> Slide 2</p>
     </div>
   </div>
   <div class="column">
     <div class = "image_card">
-    <img src="./resources/image1.jpg">
+    <img src="./resources/image1.jpg" loading="lazy">
       <p> Slide 2</p>
     </div>
   </div>
   <div class="column">
     <div class = "image_card">
-      <img src="./resources/image1.jpg">
+      <img src="./resources/image1.jpg" loading="lazy">
       <p> Slide 2</p>
     </div>
   </div>
   <div class="column">
     <div class = "image_card">
-    <img src="./resources/image2.jpg">
+    <img src="./resources/image2.jpg" loading="lazy">
       <p> Slide 2</p>
     </div>
   </div>
   <div class="column">
     <div class = "image_card">
-    <img src="./resources/image3.jpg">
+    <img src="./resources/image3.jpg" loading="lazy">
       <p> Slide 2</p>
     </div>
   </div>
   <div class="column">
     <div class = "image_card">
-    <img src="./resources/image1.jpg">
+    <img src="./resources/image1.jpg" loading="lazy">
     <p> Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2</p>
     <p> Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2</p>
     </div>
@@ -437,6 +437,7 @@
         slideTitle.innerText = slides[i].title;
         slideImage.setAttribute("src", slides[i].src);
         slideImage.setAttribute("style", "width:100%");
+        slideImage.setAttribute("loading", "lazy");
         numberText.setAttribute("class", "numbertext");
         numberText.innerText = (i+1) + "/" + slides.length;
         slideFade.setAttribute("class", "mySlides fade")
