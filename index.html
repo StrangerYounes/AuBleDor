@@ -274,11 +274,13 @@
 <img src="./resources/AuBleDor-Logo-2018.png" alt="Au Blé D'Or" class= center>
 <div id = "main-slideshow" class = "slideshow-container">
 
+<!--
 <a class="prev" onclick="plusSlides(-1)">❮</a>
 <a class="next" onclick="plusSlides(1)">❯</a>
+-->
 </div>
 </br>
-<div id = "dots" style="text-align:center"></div>
+<div id = "dots" style="text-align:center; display: None"></div>
 
 
 
@@ -289,50 +291,50 @@
 <div class="row">
   <div class="column">
     <div class = "image_card">
-      <img src="./resources/image1.png">
+      <img src="./resources/image1.jpg">
       <p> Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2</p>
       <p> Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2</p>
     </div>
   </div>
   <div class="column">
     <div class = "image_card">
-    <img src="./resources/image2.png">
+    <img src="./resources/image2.jpg">
       <p> Slide 2</p>
     </div>
   </div>
   <div class="column">
     <div class = "image_card">
-    <img src="./resources/image3.png">
+    <img src="./resources/image3.jpg">
       <p> Slide 2</p>
     </div>
   </div>
   <div class="column">
     <div class = "image_card">
-    <img src="./resources/image1.png">
+    <img src="./resources/image1.jpg">
       <p> Slide 2</p>
     </div>
   </div>
   <div class="column">
     <div class = "image_card">
-      <img src="./resources/image1.png">
+      <img src="./resources/image1.jpg">
       <p> Slide 2</p>
     </div>
   </div>
   <div class="column">
     <div class = "image_card">
-    <img src="./resources/image2.png">
+    <img src="./resources/image2.jpg">
       <p> Slide 2</p>
     </div>
   </div>
   <div class="column">
     <div class = "image_card">
-    <img src="./resources/image3.png">
+    <img src="./resources/image3.jpg">
       <p> Slide 2</p>
     </div>
   </div>
   <div class="column">
     <div class = "image_card">
-    <img src="./resources/image1.png">
+    <img src="./resources/image1.jpg">
     <p> Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2</p>
     <p> Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2Slide 2</p>
     </div>
@@ -385,7 +387,7 @@
     }
 
     function startSlidesShow(){
-      slideShowInterval = setTimeout(function(){plusSlides(1)}, 3000);
+      slideShowInterval = setTimeout(function(){plusSlides(1)}, 10000);
     }
 
     function resetSlidesShow(){
@@ -400,12 +402,12 @@
 
       var slides = [
         {
-          'src' : "resources/slide1.png",
+          'src' : "resources/slide1.jpg",
           'title' : "Greate Opeining of the Third big STORE",
           'details' : "Meet us this Tusday the 8th of December at 7:30 PM in the greate Wale Island"
         },
         {
-          'src' : "./resources/slide2.png",
+          'src' : "./resources/slide2.jpg",
           'title' : "TEXXTTTT",
           'details' : "details"
         },
