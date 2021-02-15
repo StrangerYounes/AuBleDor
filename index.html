@@ -437,8 +437,6 @@
         slideTitle.innerText = slides[i].title;
         slideImage.setAttribute("src", slides[i].src);
         slideImage.setAttribute("style", "width:100%");
-        if(i > 0)
-      	    slideImage.setAttribute("loading", "lazy");
         numberText.setAttribute("class", "numbertext");
         numberText.innerText = (i+1) + "/" + slides.length;
         slideFade.setAttribute("class", "mySlides fade")
