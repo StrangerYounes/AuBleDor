@@ -445,6 +445,7 @@
         slideFade.appendChild(slideImage);
         slideFade.appendChild(slideTitle);
         slideFade.appendChild(slideDetails);
+		slideFade.style.display = i == 0 ? "block" : "none";
         navigationDots.appendChild(dot);
         slideShowContainer.insertBefore(slideFade, slideShowContainer.firstChild);
       }
